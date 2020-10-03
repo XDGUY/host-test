@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="p5/p5.js"></script>
+    <script src="packed2048.js"></script>
+    <script src="design.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <i class="fa fa-arrow-up fa-3x" aria-hidden="true" id="up" onclick="bla('w', UP_ARROW)"></i> 
+    <i class="fa fa-arrow-down fa-3x" aria-hidden="true" id="down" onclick="bla('s', DOWN_ARROW)"></i> 
+    <i class="fa fa-arrow-left fa-3x" aria-hidden="true" id="left" onclick="bla('a', LEFT_ARROW)"></i> 
+    <i class="fa fa-arrow-right fa-3x" aria-hidden="true" id="right" onclick="bla('d', RIGHT_ARROW)"> </i>
+    <button type="button" onclick="restartButton()">Restart</button>
+    <p style="font-size:24pt" id="score"></p>
+    <p>press r to undo</p>
+</body>
+</html>

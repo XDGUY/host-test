@@ -1,0 +1,37 @@
+body{
+    background-color:#050801;
+}
+
+p{
+    color:wheat;
+}
+
+i{
+    background-color: gray;
+    border-radius: 200%;
+}
+
+i:hover{
+    cursor:pointer;
+    background-color: yellow;
+    box-shadow: 0 0 5px yellow,
+                0 0 25px yellow,
+                0 0 50px yellow,
+                0 0 25px yellow;
+}
+
+#up:active{
+    transform:translateY(-4px);
+}
+
+#down:active{
+    transform:translateY(4px);
+}
+
+#left:active{
+    transform:translateX(-4px);
+}
+
+#right:active{
+    transform:translateX(4px);
+}
